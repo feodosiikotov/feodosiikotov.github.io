@@ -34,7 +34,7 @@
 								<p>Moscow, Russia</p>
 								<ul class="icons">
 									<li><a href="https://telegram.im/@feodosiikotov" class="icon brands fa-telegram"><span class="label">Twitter</span></a></li>
-									<li><a href="mailto:feodosiikotov@mail.ru?subject=CV:" class="icon solid fa-at"><span class="label">Mail</span></a></li>
+									<li><a href="#mail" class="icon solid fa-at"><span class="label">Mail</span></a></li>
 									<!-- <li><a href="#" class="icon brands fa-kaggle"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-slack"><span class="label">Instagram</span></a></li> -->
 									<li><a href="https://github.com/feodosiikotov" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -47,7 +47,7 @@
 								<li ><a href="#projects">Projects</a></li>
 								<li ><a href="#skills">Skills</a></li>
 								<li ><a href="#education">Education</a></li>
-								<li><a href="#photos">Photo Gallery</a></li>
+								<li><a href="#pdf"><i class="icon solid fa-download"></i>Download PDF</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -86,14 +86,14 @@
 								I used Matrix Factorization, Node2Vec Embeddings and Boostings.
 								
 								</p>
-								<p><h3 style="font-size: large;"><a href="https://ods.ai/competitions/x5-retailhero-uplift-modeling" target="_blank">X5 Retail Hero</a><a href="#" class="icon brands fa-github" style="margin-left: 0.5em;" target="_blank"><span class="label">   Github</span></a></h3> 
+								<p><h3 style="font-size: large;"><a href="https://ods.ai/competitions/x5-retailhero-uplift-modeling" target="_blank">X5 Retail Hero</a><a href="https://github.com/feodosiikotov/RetailHero_uplift" class="icon brands fa-github" style="margin-left: 0.5em;" target="_blank"><span class="label">   Github</span></a></h3> 
 									<h4>Top 15%</h4>
 								The task was to find customers that wouldn’t have made a purchase without communication [Uplift-modelling] <br/>
 								I used boosting with a huge number of features I've managed to excract.
 
 								</p>
 								
-								<p><h3 style="font-size: large;"><a href="https://it-events.com/events/13985">Hack & Change</a><a href="#" class="icon brands fa-github" style="margin-left: 0.5em;"><span class="label">   Github</span></a></h3> 	
+								<p><h3 style="font-size: large;"><a href="https://it-events.com/events/13985">Hack & Change</a><a target="_blank" href="https://github.com/feodosiikotov/HackChange-DurkaScience" class="icon brands fa-github" style="margin-left: 0.5em;"><span class="label">   Github</span></a></h3> 	
 									<h4>Knowledge</h4>X5 wanted to know in which shops it is relevant to place parcel automats.<br/>
 									I have parsed a lot of new features [e. g. number of rivals near the shop] and used it for boosting.
 									</p>
@@ -106,7 +106,7 @@
 								<p><h3 style="font-size: large;">
 									Image Captioning
 									
-									<a  class="icon brands fa-github" style="margin-left: 0.5em;">
+									<a  class="icon brands fa-github" style="margin-left: 0.5em;" target=“_blank” href="https://github.com/feodosiikotov/ImageCaptioning">
 										<span class="label">   Github</span></a></h3> 
 									I've made neural network that transforms image into text description of it.
 									I used CNN [inception] to encode image and LSTM to decode it into text.
@@ -114,7 +114,7 @@
 								<p><h3 style="font-size: large;">
 									Speech Recognition
 									
-									<a class="icon brands fa-github" style="margin-left: 0.5em;">
+									<a class="icon brands fa-github" style="margin-left: 0.5em;" target=“_blank” href="https://github.com/feodosiikotov/SpeechRecognitionQt">
 										<span class="label">   Github</span></a></h3> 
 										I've made speech recogniser using only C++ and QT (for GUI) without math and machine learning libraries.
 										This programm splits audio sample in words, counts MFCC coefficients for each one and then uses DTW algorithm to compare decoded words. 
@@ -201,9 +201,12 @@
 										<li><a class="button primary", style='cursor:unset;'>ML Theory and Algorithms</a></li>
 										<li><a class="button primary", style='cursor:unset;'>Computer Science theory</a></li>
 									</ul><ul class="actions">
+										<li><a class="button primary", style='cursor:unset;'>Object oriented programming</a></li>
+									</ul><ul class="actions">
 										<li><a class="button primary", style='cursor:unset;'>Calculus</a></li>
 										<li><a class="button primary", style='cursor:unset;'>Linear Algebra</a></li>
 										<li><a class="button primary", style='cursor:unset;'>Statistics</a></li>
+										<li><a class="button primary", style='cursor:unset;'>Discrete mathematics</a></li>
 									</ul></ul>
 									<p><h3 style="font-size: large;">Other</h3>
 									<ul class="actions">
@@ -211,6 +214,26 @@
 									</ul>
 								<p><h3 style="font-size: large;">English - Advanced</h3>
 							</article>
+
+							<!-- PDF -->
+							<article id="pdf">
+								<h2 class="major">Download PDF</h2>
+								<ul class='actions '>
+									<li><a class="button primary" href="pdf/ru_pdf.pdf" target=“_blank”>Russian version</a></li>
+									<li><a class="button primary" href="pdf/eng_pdf.pdf" target=“_blank”>English version</a></li>
+								</ul>
+
+								</article>
+						
+							<!-- Mail -->
+							<article id="mail">
+								<h2 class="major">e-mail</h2>
+								<a style="cursor:pointer; font-size: large;" onclick="copyToClipboard('#copy_text')",
+								title="Copy to clipboard" id="copy_text">feodosiikotov@mail.ru</a>     <a style="cursor:pointer; font-size: large;" onclick="copyToClipboard('#copy_text')",
+								title="Copy to clipboard" class="icon solid fa-clone">
+									</a></a>
+								</article>
+							
 						<!-- Contact 
 							<article id="contact">
 								<h2 class="major">Contact</h2>
